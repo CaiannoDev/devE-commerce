@@ -1,0 +1,125 @@
+.newsLetter{
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    gap: 30px;
+
+}
+
+.newsletter h1{
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.newsletter p{
+    color: #454545;
+    font-size: 20px;
+}
+
+.newsletter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid #454545;
+}
+
+#div-input{
+    width: 350px;
+    margin-left: 30px;
+    border: 1px solid black;
+    outline: none;
+    color: 616161;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border-radius: 80px;
+}
+
+#div-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+@media (max-width:800px) {
+    
+    .newsLetter{
+        width: 55%;
+        height: 50vh;
+    }
+
+    #div-input{
+        width: 280px;
+        height: 30px;
+        
+    }
+
+    #div-btn{
+        width: 100px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .newsLetter h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width:500px) {
+    
+    .newsLetter{
+        width: 35%;
+        height: 40vh;
+    }
+
+    #div-input{
+        width: 250px;
+        height: 20px;
+        text-align: center;
+        
+    }
+
+    #div-btn{
+        width: 100px;
+        height: 28px;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .newsLetter h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .newsLetter p{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .info-newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+}
