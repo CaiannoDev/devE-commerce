@@ -3,12 +3,13 @@ import React from 'react';
 import hand_icon from '../assets/hand_icon.png'
 import arrow_icon from '../assets/arrow.png'
 import hero_image from '../assets/hero_image.png'
+import { Link } from 'react-router-dom';
+
 
 function Hero(){
     return(
         <div className="hero">
             <div className="hero-left">
-                <h2>NEW ARRIVELS ONLY</h2>
                 <div>
                     <div className='hero-hand-icon'>
                         <p>new</p>
@@ -18,7 +19,9 @@ function Hero(){
                     <p>for Everyone</p>
                 </div>
                 <div className="hero-latest-btn">
-                    <div>Latest Collection</div>
+                    <Link to={'/womens'}>
+                        <div>Ver Tudo em Feminino</div>
+                    </Link>
                     <img src={arrow_icon} alt="" />
                 </div>
             </div>

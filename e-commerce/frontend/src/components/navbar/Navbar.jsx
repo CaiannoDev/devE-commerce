@@ -30,8 +30,8 @@ function Navbar(){
         <img  className='nav-dropdown' onClick={dropdown_toggle}  src={nav_dropdown} alt="" />
         <ul ref={menuRef} className='nav-menu'>
             <li onClick={()=>{setMenu("shop")}}> <Link to='/'>Shop</Link> {menu==="shop"?<hr/>:<></>}  </li>
-            <li onClick={()=>{setMenu("mens")}}> <Link to='/mens' >Men</Link> {menu==="mens"?<hr/>:<></>}  </li>
-            <li onClick={()=>{setMenu("womens")}}> <Link to='/womens' >Woman</Link>  {menu==="womens"?<hr/>:<></>}  </li>
+            <li onClick={()=>{setMenu("mens")}}> <Link to='/mens' >Masculino</Link> {menu==="mens"?<hr/>:<></>}  </li>
+            <li onClick={()=>{setMenu("womens")}}> <Link to='/womens' >Feminino</Link>  {menu==="womens"?<hr/>:<></>}  </li>
             <li onClick={()=>{setMenu("kids")}}> <Link to='/kids'>Kids</Link> {menu==="kids"?<hr/>:<></>}  </li>
         </ul>
 

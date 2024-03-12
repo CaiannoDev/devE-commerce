@@ -13,11 +13,11 @@ function Footer(){
                 <p>SHOPPER</p>
             </div>
             <ul className='footer-links'>
-                <li>Company</li>
-                <li>Products</li>
+                <li>Empresa</li>
+                <li>Produtos</li>
                 <li>Offices</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li>Sobre</li>
+                <li>Contatos</li>
             </ul>
             <div className='footer-socials-icon'>
                 <div className="footer-icons-container">

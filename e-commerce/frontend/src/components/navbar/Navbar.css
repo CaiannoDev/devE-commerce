@@ -5,6 +5,7 @@
     box-shadow: 0 1px 3px -2px black;
     align-items: center;
     margin-bottom: 0px;
+    
 }
 
 .nav-logo{
@@ -37,6 +38,11 @@
     justify-content: center;
     gap: 3px;
     cursor: pointer;
+    color: #646cff;
+}
+
+.nav-menu li a{
+    color: #646cff;
 }
 
 .nav-menu hr{

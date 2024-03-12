@@ -8,9 +8,9 @@ function Offers(){
     return(
         <div className="offers">
             <div className="offers-left">
-                <h1>Exclusive</h1>
-                <h1>Offers for you</h1>
-                <p>ONLY ON BEST SELLERS PRODUCTS</p>
+                <h1>Exclusivo</h1>
+                <h1>Ofertas para Você</h1>
+                <p>DESCUBRA O SEU ESTILO DE SER LIVRE.</p>
                 <button>Check Now</button>
             </div> 
 

@@ -69,8 +69,8 @@ function LoginSignup(){
                     <button onClick={()=>{state==="Login"?login():signup()}} >Continue</button>
                 </div>
                 {state==="Sign Up"? 
-                    <p className="loginsignup-login"> Already have an account? <span onClick={()=>{setState("Login")}} >Login here</span> </p> : 
-                    <p className="loginsignup-login"> Creat an account? <span onClick={()=>{setState("Sign Up")}} >Click here</span> </p>}
+                    <p className="loginsignup-login"> Ja possui uma Conta? <span onClick={()=>{setState("Login")}} >Login here</span> </p> : 
+                    <p className="loginsignup-login"> Criar uma Conta? <span onClick={()=>{setState("Sign Up")}} >Click Aqui</span> </p>}
                 <div className="loginsignup-agree">
                     <input type="checkbox" name="" id=""/>
                     <p>By Continue, I agree to the terms of use & privacy Policy.</p>

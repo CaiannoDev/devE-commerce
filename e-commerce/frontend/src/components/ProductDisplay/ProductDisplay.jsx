@@ -47,17 +47,17 @@ function ProductDisplay(props){
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quae accusantium mollitia sapiente, laudantium error.
                 </div>
                 <div className="productdisplay-right-size">
-                    <h1>Select Size</h1>
+                    <h1>Tamanho:</h1>
                     <div className='productdisplay-right-sizes'>
-                        <div>S</div>
+                        <div>P</div>
                         <div>M</div>
-                        <div>L</div>
-                        <div>XL</div>
-                        <div>XXL</div>
+                        <div>G</div>
+                        <div>GG</div>
+                        <div>XG</div>
                     </div>
                 </div>
-                <button onClick={()=>{addToCart(product.id)}} >ADD TO CART</button>
-                <p className='productdisplay-right-category'> <span>Category:</span> Women, T-shirt, Crop Top </p>
+                <button onClick={()=>{addToCart(product.id)}} >COMPRAR</button>
+                <p className='productdisplay-right-category'> <span>Categoria:</span> Women, T-shirt, Crop Top </p>
                 <p className='productdisplay-right-category'> <span>Tags:</span> Modern, Latest </p>
             </div>
 

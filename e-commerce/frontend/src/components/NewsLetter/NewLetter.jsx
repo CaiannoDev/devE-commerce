@@ -3,11 +3,11 @@ import '../NewsLetter/NewsLetter.css'
 function NewsLetter(){
     return (
         <div className='newsLetter'>
-            <h1>Get Exclusive Offers on your Email</h1>
-            <p>subscribe to our newsletter and stay updated</p>
+            <h1>Receba ofertas e novidades por e-mail</h1>
+            <p>Cadastre-se em nossa newsletter e fique atualizado</p>
             <div className='info-newsletter'>
-                <input  id="div-input" type="email" placeholder='Your email id'/>
-                <button id="div-btn">Subscribe</button>
+                <input  id="div-input" type="email" placeholder='digite seu email'/>
+                <button id="div-btn">Cadastrar</button>
             </div>
         </div>
     )

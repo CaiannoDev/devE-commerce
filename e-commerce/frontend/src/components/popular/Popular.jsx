@@ -7,7 +7,7 @@ import Items from '../items/Item';
 function Popular(){
     return (
         <div className="popular">
-            <h1>POPULAR IN WOMEN</h1>
+            <h1>TENDÊNCIAS DA VEZ</h1>
             <hr />
             <div className='popular-item'>
                 {data_product.map((item, i)=>{

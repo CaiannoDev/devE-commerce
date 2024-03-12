@@ -17,10 +17,10 @@ function ShopCategory({category,banner}){
             <img className="shopcategory-banner" src={banner} alt="" />
             <div className='shopcategory-indexSort'>
                 <p>
-                   <span>Showing 1-12</span> out of 36 products
+                   <span>Mostrar 1-12</span> dos 36 products
                 </p>
                 <div className="shopcategory-sort">
-                    sort by <img src={dropdown_icon} alt="" />
+                    ordenado por <img src={dropdown_icon} alt="" />
                 </div>
             </div>
             <div className="shopcategory-products">
@@ -36,7 +36,7 @@ function ShopCategory({category,banner}){
                     }else {return null;}
                 })}
             </div>
-            <div className="shopcategory-loadmore">Explore More</div>
+            <div className="shopcategory-loadmore">Explore mais</div>
         </div>
     )
 }
